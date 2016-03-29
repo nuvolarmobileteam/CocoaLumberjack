@@ -41,6 +41,8 @@ extern NSTimeInterval     const kDDDefaultLogRollingFrequency;
 extern NSUInteger         const kDDDefaultLogMaxNumLogFiles;
 extern unsigned long long const kDDDefaultLogFilesDiskQuota;
 
+// Salesforce: flag to allow background access to the log file
+extern BOOL DDFileLoggerAllowBackgroundAccess;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -

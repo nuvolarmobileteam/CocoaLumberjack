@@ -41,6 +41,7 @@
 #define NSLogDebug(frmt, ...)    do{ if(DD_NSLOG_LEVEL >= 4) NSLog((frmt), ##__VA_ARGS__); } while(0)
 #define NSLogVerbose(frmt, ...)  do{ if(DD_NSLOG_LEVEL >= 5) NSLog((frmt), ##__VA_ARGS__); } while(0)
 
+BOOL DDFileLoggerAllowBackgroundAccess = NO;
 
 #if TARGET_OS_IPHONE
 BOOL doesAppRunInBackground(void);
@@ -1476,6 +1477,13 @@ BOOL doesAppRunInBackground() {
             answer = YES;
             break;
         }
+    }
+
+    // Salesforce: application that supports the Apple Watch might
+    // want to allow access to their log files while in the background
+    // even if they don't use any UIBackgroundModes.
+    if (!answer && DDFileLoggerAllowBackgroundAccess) {
+        answer = DDFileLoggerAllowBackgroundAccess;
     }
 
     return answer;

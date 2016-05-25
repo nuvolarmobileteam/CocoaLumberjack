@@ -913,6 +913,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEA884CD1C1A3586008D871B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA884D91C1A35F0008D871B /* DDContextFilterLogFormatter.h in Headers */,
+				CEA884D61C1A35DE008D871B /* DDFileLogger.h in Headers */,
+				CEA884D11C1A35C0008D871B /* DDLegacyMacros.h in Headers */,
+				CEA884D31C1A35CD008D871B /* DDAbstractDatabaseLogger.h in Headers */,
+				CEA884D81C1A35E9008D871B /* DDTTYLogger.h in Headers */,
+				CEA884DA1C1A35F6008D871B /* DDDispatchQueueLogFormatter.h in Headers */,
+				CEA884CF1C1A35B4008D871B /* DDLogMacros.h in Headers */,
+				CEA884DB1C1A35FC008D871B /* DDMultiFormatter.h in Headers */,
+				CEA884D51C1A35D8008D871B /* DDASLLogger.h in Headers */,
+				CEA884D71C1A35E3008D871B /* DDLog.h in Headers */,
+				CEA884D01C1A35BA008D871B /* DDAssertMacros.h in Headers */,
+				CEA884D21C1A35C7008D871B /* DDLog+LOGV.h in Headers */,
+				CEA884D41C1A35D2008D871B /* DDASLLogCapture.h in Headers */,
+				CEA884CE1C1A35A8008D871B /* CocoaLumberjack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCB3184E14EB418E001CFBEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -984,6 +1005,7 @@
 				18F3BFD31A81E06E00692297 /* Sources */,
 				18F3BFD41A81E06E00692297 /* Frameworks */,
 				18F3BFD51A81E06E00692297 /* CopyFiles */,
+				CEA884CD1C1A3586008D871B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1834,9 +1856,9 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/private";
+				PRIVATE_HEADERS_FOLDER_PATH = PrivateHeaders/CocoaLumberjack;
 				PRODUCT_NAME = CocoaLumberjack;
-				PUBLIC_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/include";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers/CocoaLumberjack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -1850,9 +1872,9 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/private";
+				PRIVATE_HEADERS_FOLDER_PATH = PrivateHeaders/CocoaLumberjack;
 				PRODUCT_NAME = CocoaLumberjack;
-				PUBLIC_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/include";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers/CocoaLumberjack;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;

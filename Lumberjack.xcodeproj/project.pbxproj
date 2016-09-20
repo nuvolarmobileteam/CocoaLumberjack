@@ -138,20 +138,22 @@
 		55CCBF0819BA679200957A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CCBF0719BA679200957A39 /* Images.xcassets */; };
 		55CCBF2019BA67CB00957A39 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB3185114EB418E001CFBEE /* CocoaLumberjack.framework */; };
 		55F88BF81B3CB15C00E31255 /* CocoaLumberjackSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F88BF71B3CB15C00E31255 /* CocoaLumberjackSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE741BFA65CE00D1B9CB /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D89BA41994749300C180CF /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE751BFA65CE00D1B9CB /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D89BA61994749300C180CF /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE761BFA65CE00D1B9CB /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D89BA51994749300C180CF /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE771BFA65CE00D1B9CB /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E58079621A032F92008819CA /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE781BFA65CE00D1B9CB /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20C7192A0E0000AB7171 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE791BFA65CE00D1B9CB /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20BD192A0E0000AB7171 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE7A1BFA65CE00D1B9CB /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20BF192A0E0000AB7171 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE7B1BFA65CE00D1B9CB /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20C1192A0E0000AB7171 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE7C1BFA65CE00D1B9CB /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20C3192A0E0000AB7171 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE7D1BFA65CE00D1B9CB /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20C5192A0E0000AB7171 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE7E1BFA65CE00D1B9CB /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20C8192A0E0000AB7171 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE7F1BFA65CE00D1B9CB /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20CB192A0E0000AB7171 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE801BFA65CE00D1B9CB /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20CD192A0E0000AB7171 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		620EEE811BFA65CE00D1B9CB /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20CF192A0E0000AB7171 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE741BFA65CE00D1B9CB /* CocoaLumberjack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5D89BA41994749300C180CF /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE751BFA65CE00D1B9CB /* DDLogMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5D89BA61994749300C180CF /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE761BFA65CE00D1B9CB /* DDAssertMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5D89BA51994749300C180CF /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE771BFA65CE00D1B9CB /* DDLegacyMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E58079621A032F92008819CA /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE781BFA65CE00D1B9CB /* DDLog+LOGV.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20C7192A0E0000AB7171 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE791BFA65CE00D1B9CB /* DDAbstractDatabaseLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20BD192A0E0000AB7171 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE7A1BFA65CE00D1B9CB /* DDASLLogCapture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20BF192A0E0000AB7171 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE7B1BFA65CE00D1B9CB /* DDASLLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20C1192A0E0000AB7171 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE7C1BFA65CE00D1B9CB /* DDFileLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20C3192A0E0000AB7171 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE7D1BFA65CE00D1B9CB /* DDLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20C5192A0E0000AB7171 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE7E1BFA65CE00D1B9CB /* DDTTYLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20C8192A0E0000AB7171 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE7F1BFA65CE00D1B9CB /* DDContextFilterLogFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20CB192A0E0000AB7171 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE801BFA65CE00D1B9CB /* DDDispatchQueueLogFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20CD192A0E0000AB7171 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EEE811BFA65CE00D1B9CB /* DDMultiFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA9C20CF192A0E0000AB7171 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93483CFC1D09E39000AD40D6 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 93483CFA1D09E39000AD40D6 /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; settings = {ATTRIBUTES = (Public, ); }; };
+		93483CFD1D09E39000AD40D6 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93483CFB1D09E39000AD40D6 /* CLIColor.m */; };
 		DA9C20D1192A0E0000AB7171 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20BD192A0E0000AB7171 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA9C20D2192A0E0000AB7171 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9C20BE192A0E0000AB7171 /* DDAbstractDatabaseLogger.m */; };
 		DA9C20D3192A0E0000AB7171 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9C20BF192A0E0000AB7171 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -394,6 +396,8 @@
 		55CCBF0519BA679200957A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CCBF0719BA679200957A39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55F88BF71B3CB15C00E31255 /* CocoaLumberjackSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjackSwift.h; sourceTree = "<group>"; };
+		93483CFA1D09E39000AD40D6 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = CLI/CLIColor.h; sourceTree = "<group>"; };
+		93483CFB1D09E39000AD40D6 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLIColor.m; path = CLI/CLIColor.m; sourceTree = "<group>"; };
 		DA9C20BD192A0E0000AB7171 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		DA9C20BE192A0E0000AB7171 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		DA9C20BF192A0E0000AB7171 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
@@ -748,6 +752,8 @@
 				DA9C20C6192A0E0000AB7171 /* DDLog.m */,
 				DA9C20C8192A0E0000AB7171 /* DDTTYLogger.h */,
 				DA9C20C9192A0E0000AB7171 /* DDTTYLogger.m */,
+				93483CFA1D09E39000AD40D6 /* CLIColor.h */,
+				93483CFB1D09E39000AD40D6 /* CLIColor.m */,
 				DA9C20CA192A0E0000AB7171 /* Extensions */,
 			);
 			name = Lumberjack;
@@ -928,6 +934,7 @@
 				DA9C20D5192A0E0000AB7171 /* DDASLLogger.h in Headers */,
 				DA9C20E2192A0E0000AB7171 /* DDMultiFormatter.h in Headers */,
 				18F3BF161A81D9A400692297 /* CocoaLumberjack.h in Headers */,
+				93483CFC1D09E39000AD40D6 /* CLIColor.h in Headers */,
 				DA9C20D7192A0E0000AB7171 /* DDFileLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1588,6 +1595,7 @@
 				DA9C20DD192A0E0000AB7171 /* DDTTYLogger.m in Sources */,
 				DA9C20E3192A0E0000AB7171 /* DDMultiFormatter.m in Sources */,
 				DA9C20D2192A0E0000AB7171 /* DDAbstractDatabaseLogger.m in Sources */,
+				93483CFD1D09E39000AD40D6 /* CLIColor.m in Sources */,
 				DA9C20D6192A0E0000AB7171 /* DDASLLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1749,6 +1757,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = framework;
@@ -1777,6 +1786,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx appletvos appletvsimulator";
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				WRAPPER_EXTENSION = framework;
@@ -1800,6 +1810,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -1817,6 +1828,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1961,6 +1973,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 				WRAPPER_EXTENSION = framework;
@@ -1985,6 +1998,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 				WRAPPER_EXTENSION = framework;
@@ -2005,6 +2019,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.tvOSSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -2024,6 +2039,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.tvOSSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -2093,6 +2109,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -2115,6 +2132,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 2.3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -2174,6 +2192,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -2193,6 +2212,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -2266,6 +2286,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2289,6 +2310,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -2312,6 +2334,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -2331,6 +2354,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.deusty.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
